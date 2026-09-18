@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+ * Token semantik "Arus" sebagai CSS variable (kanal RGB, dipisah spasi agar
+ * mendukung <alpha-value> di tailwind, mis. bg-surface/80). Nilai HARUS selaras
+ * dengan `semantic` di src/constants/palette.js.
+ *
+ * Dark mode: `@media (prefers-color-scheme: dark)` — NativeWind me-resolve dari
+ * RN Appearance (saklar Appearance.setColorScheme di _layout.tsx), sama seperti
+ * varian `dark:`. Variabel membalik otomatis & terverifikasi di perangkat.
+ */
+:root {
+  --c-app: 245 247 247;
+  --c-surface: 255 255 255;
+  --c-surface-2: 237 241 241;
+  --c-hairline: 226 232 231;
+  --c-content: 11 31 29;
+  --c-secondary: 90 107 105;
+  --c-muted: 124 139 137;
+  --c-accent: 13 148 136;
+  --c-income: 21 163 74;
+  --c-expense: 220 38 38;
+  --c-warning: 217 119 6;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --c-app: 11 18 17;
+    --c-surface: 18 26 25;
+    --c-surface-2: 24 33 31;
+    --c-hairline: 37 48 46;
+    --c-content: 236 242 241;
+    --c-secondary: 157 174 171;
+    --c-muted: 110 128 125;
+    --c-accent: 45 212 191;
+    --c-income: 74 222 128;
+    --c-expense: 248 113 113;
+    --c-warning: 251 191 36;
+  }
+}
+
+:root {
+  --font-display:
+    Plus Jakarta Sans, Spline Sans, Inter, ui-sans-serif, system-ui, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  --font-mono:
+    ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+  --font-rounded: 'SF Pro Rounded', 'Hiragino Maru Gothic ProN', Meiryo, 'MS PGothic', sans-serif;
+  --font-serif: Georgia, 'Times New Roman', serif;
+}

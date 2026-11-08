@@ -28,6 +28,55 @@ Banyak pengguna menghadapi masalah "pengeluaran tak sadar" (*invisible spending*
 
 ---
 
+## 📱 Tampilan Aplikasi
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <b>Halaman Beranda</b><br>
+      <img src="assets/screenshot/beranda.png" width="200" alt="Halaman Beranda"/>
+    </td>
+    <td align="center">
+      <b>Halaman Tabungan</b><br>
+      <img src="assets/screenshot/tabungan.png" width="200" alt="Halaman Tabungan"/>
+    </td>
+    <td align="center">
+      <b>Halaman Transaksi</b><br>
+      <img src="assets/screenshot/transaksi.png" width="200" alt="Halaman Transaksi"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <b>Halaman Ringkasan</b><br>
+      <img src="assets/screenshot/ringkasan.png" width="200" alt="Ringkasan"/>
+    </td>
+    <td align="center">
+      <b>Form Tambah Transaksi</b><br>
+      <img src="assets/screenshot/form.png" width="200" alt="Form Transaksi"/>
+    </td>
+    <td align="center">
+      <b>Halaman Chat AI</b><br>
+      <img src="assets/screenshot/chat.png" width="200" alt="Chat AI"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <b>Contoh Pemakaian Chat AI</b><br>
+      <img src="assets/screenshot/contoh.png" width="200" alt="Contoh Chat AI"/>
+    </td>
+    <td align="center">
+      <b>Halaman Analitik</b><br>
+      <img src="assets/screenshot/analitik.png" width="200" alt="Analitik"/>
+    </td>
+    <td align="center">
+      <b>Halaman Pengaturan</b><br>
+      <img src="assets/screenshot/pengaturan.png" width="200" alt="Pengaturan"/>
+    </td>
+  </tr>
+</table>
+
+---
+
 ## 2. Panduan Memulai Cepat (Tutorials)
 
 ### 📋 Prasyarat Sistem
